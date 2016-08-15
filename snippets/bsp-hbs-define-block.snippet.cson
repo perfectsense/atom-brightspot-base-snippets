@@ -1,0 +1,20 @@
+'.text.html.handlebars':
+  'Brightspot Base define block':
+    'prefix': 'BSP Define Block'
+    'body': """
+{{#defineBlock "${1:exampleModule}" extend="${2:path/to/ParentModule}"}}
+
+  {{#defineElement "${3:exampleElement}"}}
+    <div class="{{elementName}}">{{this}}</div>
+  {{/defineElement}}
+
+  {{#defineBlockContainer}}
+    <div class="{{blockName}}">
+    {{#defineBlockBody}}
+      {{element "${3:exampleElement}"}}
+    {{/defineBlockBody}}
+    </div>
+  {{/defineBlockContainer}}
+
+{{/defineBlock}}
+    """

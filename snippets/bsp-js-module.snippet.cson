@@ -1,0 +1,23 @@
+'.source.js':
+  'Brightspot Base module':
+    'prefix': 'BSP Module'
+    'body': """
+import $ from 'jquery';
+import bsp_utils from 'bsp-utils';
+
+class ${1:Module} {
+	constructor($el, options) {
+		this.$el = $el;
+		this.options = $.extend(true, {}, this.defaults, options);
+	}
+}
+${1:Module}.prototype.defaults = {
+
+}
+
+export default bsp_utils.plugin(false, 'jnj', '${2:module}', {
+    '_each': function(item) {
+    	new ${1:Module}($(item), this.option(item));
+    }
+});
+    """

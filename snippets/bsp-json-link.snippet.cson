@@ -1,0 +1,10 @@
+'.source.json':
+  'Brightspot Base Link':
+    'prefix': 'BSP Link'
+    'body': """
+    {
+        "_template" : "/base/util/Link",
+        "href" : "http://www.brightspot.com",
+        "body" : "${1:linkText}"
+    }
+    """

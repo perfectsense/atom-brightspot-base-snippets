@@ -1,0 +1,8 @@
+'.text.html.handlebars':
+  'Brightspot Base define element':
+    'prefix': 'BSP Define Element'
+    'body': """
+{{#defineElement "${1:elementName}"}}
+  <div class="{{elementName}}">{{this}}</div>
+{{/defineElement}}
+    """

@@ -1,0 +1,4 @@
+'.text.html.handlebars':
+  'Brightspot Base hbs call element':
+    'prefix': 'BSP Element'
+    'body': '{{element "${1:name}"}}'

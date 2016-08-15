@@ -1,0 +1,9 @@
+'.source.json':
+  'Brightspot Base RawHtml':
+    'prefix': 'BSP Raw Html'
+    'body': """
+    {
+      "_template" : "/base/util/RawHtml",
+      "html" : "{{words([${1:2,4}])}}"
+    }
+    """
