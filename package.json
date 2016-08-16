@@ -1,9 +1,9 @@
 {
-  "name": "brightspot-base-atom-snippets",
+  "name": "atom-brightspot-base-snippets",
   "version": "0.1.0",
   "description": "Brightspot Base Snippets for Atom Editor",
   "keywords": [],
-  "repository": "https://github.com/rustytanton/brightspot-base-atom-snippets",
+  "repository": "https://github.com/perfectsense/atom-brightspot-base-snippets",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
