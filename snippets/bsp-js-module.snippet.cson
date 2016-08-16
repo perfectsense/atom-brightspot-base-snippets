@@ -15,7 +15,7 @@ ${1:Module}.prototype.defaults = {
 
 }
 
-export default bsp_utils.plugin(false, 'jnj', '${2:module}', {
+export default bsp_utils.plugin(false, '${2:bsp}', '${3:module}', {
     '_each': function(item) {
     	new ${1:Module}($(item), this.option(item));
     }
